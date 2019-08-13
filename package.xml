@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+    <name>Affiliateplus_Trash</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow moving to trash / restoring affiliate transaction, withdrawal quickly.</summary>
+    <description>&lt;p&gt;When your business grows, more and more transactions and withdrawals of your affiliates will build up over time. To manage all of them simultaneously is obviously not an easy task and you may want to remove unnecessary ones. But how to take transactions and withdrawals back some other times when you need them for review or when they are removed just by mistakes? With &lt;strong&gt;Affiliate Trash plugin&lt;/strong&gt;, all of those procedures will be conducted smoothly. Only manipulated in backend, it creates great convenience for you with the capabilities to delete or restore both transactions and withdrawals when necessary.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Outstanding Features for Admin&lt;/h3&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Delete/ restore transactions in both Transaction Manager page and View Transaction page&lt;/li&gt;&#xD;
+&lt;li&gt;View transactions before and after deletion&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&#xD;
+&lt;h3&gt;Others&lt;/h3&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Support multiple stores &amp;amp; languages&lt;/li&gt;&#xD;
+&lt;li&gt;Open source 100%&lt;/li&gt;&#xD;
+&lt;li&gt;Easy to install and configure.&lt;/li&gt;&#xD;
+&lt;li&gt;User-friendly interface.&lt;/li&gt;&lt;/ul&gt;&#xD;
+&#xD;
+&lt;h3&gt;Affiliate Trash Live Demo&lt;/h3&gt;&#xD;
+&lt;a href="http://demo-extension.magestore.com/sandbox/affiliateplus/trash/index.php/admin"&gt;&lt;strong&gt;SANDBOX BACKEND&lt;/strong&gt;&lt;/a&gt; &#xD;
+&lt;br&gt;&lt;/br&gt;&#xD;
+&lt;a href="http://www.magestore.com/affiliateplus/affiliate-trash.html"&gt;&lt;h3&gt;Visit Affiliate Trash Product Page&lt;/h3&gt;&lt;/a&gt;&#xD;
+</description>
+    <notes>Allow moving to trash / restoring affiliate transaction, withdrawal quickly.</notes>
+    <authors><author><name>Magestore</name><user>Magestore</user><email>info@magestore.com</email></author></authors>
+    <date>2014-11-28</date>
+    <time>08:36:29</time>
+    <contents><target name="magelocal"><dir name="Magestore"><dir name="AffiliateplusTrash"><dir name="Block"><dir name="Adminhtml"><dir name="Payment"><dir name="Deleted"><file name="Grid.php" hash="ea17d6b65246acf4e32700a8ec4e8b17"/></dir><file name="Deleted.php" hash="37ee5cb7c07a21eec163694cd75fb829"/><dir name="Edit"><file name="Form.php" hash="3edb07f93019900078c37026ff383142"/><dir name="Tab"><file name="Form.php" hash="a4a0111fe5f6794788785db64f255c08"/><file name="History.php" hash="a3fc8551effd884e534ec512715b65ff"/><file name="vssver2.scc" hash="eb07a20775ecd25fcecaa27bb0229641"/></dir><file name="Tabs.php" hash="c4f9f54be52c1a9ed62671193f4be9c3"/><file name="vssver2.scc" hash="21c81fc2399298b4c49a97e434275798"/></dir><file name="Edit.php" hash="16e8d5b9e6abf8ca82d8f639e0d5fafa"/></dir><dir name="Transaction"><dir name="Deleted"><file name="Grid.php" hash="69b57ef802e32f1052e429d1d4f5bfbd"/></dir><file name="Deleted.php" hash="9f382fec62bc7778c4f500b649903a45"/></dir></dir><file name="Affiliateplustrash.php" hash="3ddaf2d2e68578bfca60c64a4b1bce67"/></dir><dir name="Helper"><file name="Data.php" hash="d7ba961dbad1372f52bc71d48175d5a1"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Payment"><file name="Collection.php" hash="4b030ec5cbb2e14ad862967264b8415e"/></dir><dir name="Sales"><file name="Collection.php" hash="dbec3921a31668d7189b33517e1ef91f"/></dir><dir name="Transaction"><file name="Collection.php" hash="556c3603c64f1d8c3dfd1bbf7727a613"/></dir></dir><file name="Observer.php" hash="2ac40c4d57ebc2387395281720bb9acc"/><file name="Payment.php" hash="448799fb8112e96d55ca1e9eefef485b"/><file name="Status.php" hash="192b475fb2613662dfbc58cee17ca4bc"/><file name="Transaction.php" hash="707ef1b7d9370c62b459fe8d15157ecf"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="PaymentController.php" hash="66cd51a12dbe9a5c1039da355ffa6f2d"/><file name="TransactionController.php" hash="1dc2982f07dac5c826f7f79bbb801108"/></dir><file name="IndexController.php" hash="6c638b2a9d79db88c70dd2fa98e04c93"/></dir><dir name="etc"><file name="adminhtml.xml" hash="51be2f0a3e8607e0a85b31c8969d8424"/><file name="config.xml" hash="025af02d1bc7cad21b5301a6178d1530"/><file name="system.xml" hash="a6b428d5b43a4e96e8fd52177f63820a"/></dir><dir name="sql"><dir name="affiliateplustrash_setup"><file name="mysql4-install-0.1.0.php" hash="7140419702aba365007eb660b9a05862"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="affiliateplustrash.xml" hash="821fb21f0358d84902c1f7ffa86ab905"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magestore_AffiliateplusTrash.xml" hash="08630ecac7a0b5300d15c01fbe266531"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Magestore_AffiliateplusTrash.csv" hash="51f026e26fb144b02e7b5197cf625e7f"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>0.5.1</min><max>6.0.0</max></php></required></dependencies>
+</package>

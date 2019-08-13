@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Affiliateplus_Trash",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Allow moving to trash / restoring affiliate transaction, withdrawal quickly.",
+    "authors": [
+    {
+        "name": "Magestore",
+        "email": "info@magestore.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
