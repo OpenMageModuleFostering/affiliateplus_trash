@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Affiliateplus_Trash",
+    "name": "openmage-module-fostering\/affiliateplus_trash",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Allow moving to trash \/ restoring affiliate transaction, withdrawal quickly.",
     "authors": [
